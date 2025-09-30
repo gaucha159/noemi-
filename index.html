@@ -2,11 +2,11 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>ROBERTO-TELEFLIX</title>
+  <title>noemi-TELEFLIX</title>
 <link rel="stylesheet" href="style.css"></head>
 <body>
   <header>
-    <h1>ROBERTO-TELEFLIX</h1>
+    <h1>noemi-TELEFLIX</h1>
   </header>
 
   <!-- LAYOUT: MENU LATERAL (ESQ) + VÍDEO (DIR) -->
@@ -17,10 +17,10 @@
       <section style="padding:12px 0;">
         <label for="tema" style="color:#BDC3C7; margin-right:8px;">ESCOLHA O TEMA:</label>
         <select id="tema">
-          <option value="LOUVOR">LOUVOR</option>
-          <option value="ADORAÇÃO">ADORAÇÃO</option>
-          <option value="MENSAGEM">MENSAGEM</option>
-          <option value="INFANTIL">INFANTIL</option>
+          <option value="gaucha">gaucha</option>
+          <option value="sentanejo">sentanejo</option>
+          <option value="modão">modão</option>
+          <option value="forro">forro</option>
         </select>
       </section>
 
@@ -70,32 +70,34 @@
   <script>
     // Mapa de temas → lista de vídeos
     const TEMAS = {
-      LOUVOR: [
-        { titulo: "EU SOU TEU PAI", 
-         autor: "VALESCA MAYSSA", 
-         url: "https://www.youtube.com/watch?v=kNJPalON82E" 
+      gaucha: [
+        { titulo: "SEM TI", 
+         autor: "quartetocoraçãodepotro", 
+         url: "https://youtu.be/KwBtReoep-0?si=G7AROuRTLVyh7GUh" 
         },
-        { titulo: "DEUS DE PROMESSAS", 
-         autor: "MINISTÉRIO APASCENTAR", 
-         url: "https://youtu.be/93XkdakMp00?si=-S0mta76Kc_GxWhd" 
+        { titulo: "GRITOS DE LIBERDADE", 
+         autor: "gruporodeio", 
+         url: "https://youtu.be/VSj4jZC8oL0?si=ceE2s7XIvU6Fy99k" 
+         " 
         },
-        { titulo: "NINGUÉM EXPLICA DEUS", 
-         autor: "PRETO NO BRANCO", 
-         url: "https://youtu.be/LYsaKn8FRhc?si=R7yN3htfuafehfSw" 
+        { titulo: "FUNDO DA GROTA", 
+         autor: "baitaca", 
+         url: "https://youtu.be/EtTbS-KdcrE?si=gGsEOqYlaH1c-BLy" 
         },
       ],
-      ADORAÇÃO: [
-        { titulo: "O TEMPO É CURTO; FAÇA O MELHOR USO DO SEU TEMPO", 
-         autor: "BILLY GRAHAM EM PORTUGUÊS", 
-         url: "https://youtu.be/fmsAqGy2pCM?si=u8aCy5Lwjoj80xAB" 
+      sentanejo: [
+        { titulo: "DEIXA EU AMAR VOCẼ", 
+         autor: "fernando e sorocaba", 
+         url: "https://youtu.be/NY5-UdFxMnA?si=XetQGzNfdFlLLsRl" 
+       
         },
-        { titulo: "QUEM É JESUS CRISTO?", 
-         autor: "BILLY GRAHAM EM PORTUGUÊS", 
-         url: "https://youtu.be/6ATJ6avomUg?si=4_qlxZGejDlxVyz5" 
+        { titulo: "WHISKY E GELO", 
+         autor: "Zé Neto e Cristiano ", 
+         url: "https://youtu.be/0RIViyyWz9A?si=G_BzO5YBEBB_JDu5" 
         },
-        { titulo: "QUEM É JESUS CRISTO?", 
-         autor: "BILLY GRAHAM EM PORTUGUÊS", 
-         url: "https://youtu.be/6ATJ6avomUg?si=4_qlxZGejDlxVyz5" 
+        { titulo: "Pátio do Posto ", 
+         autor: "Zé Neto e Cristiano ", 
+         url: "https://youtu.be/6RTg7ovfaLk?si=VgiH_hQB5-ElZ40q" 
         },
       ],
       MENSAGEM: [
